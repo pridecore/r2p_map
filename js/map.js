@@ -66,7 +66,7 @@ async function loadPoints() {
             }
 
             // 🎨 Вибір іконки маркера
-            let iconUrl = indicator === "🟢" ? "/img/home_green.png" : "/img/home_red.png";
+            let iconUrl = indicator === "🟢" ? "/r2p_map/img/home_green.png" : "/r2p_map/img/home_red.png";
             let markerIcon = L.icon({
                 iconUrl: iconUrl,
                 iconSize: [14, 14], // 📏 Розмір іконки
